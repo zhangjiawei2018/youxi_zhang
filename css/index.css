@@ -1,0 +1,221 @@
+			 *{
+			 	margin: 0;
+			 	padding: 0;
+			 	list-style: none;
+			 }
+			 html,body{width: 100%;height: 100%;}
+			 body{
+			 	background:url(../img/66.jpg);
+			 	background-repeat: no-repeat;
+			 	background-size: cover;
+			 }
+			 .box1{
+			 	width: 450px;
+			 	height: 600px;
+			 	margin: 20px auto;
+			 	background: rgba(255,255,255,.3);
+			 	border-radius: 10px;
+			 	position: relative;
+			   overflow:hidden;
+			 }
+			 .box1 ul{
+			 	width: 100%;
+			 	height: 100px;
+			 }
+			 ul li{
+			 	width: 25%;
+			 	height: 100%;
+			 	float: left;
+			 	position: relative;
+			 	color: #0f0;
+			 }
+			 ul li span{
+			 	width: 100%;
+			 	height: 50%;
+			 	display: inline-block;
+			 	text-align: center;
+			 	font-size: 40px;
+			 	position: absolute;
+			 	bottom: 0px;
+			 	left: 0px;
+			 	box-sizing: border-box;
+			 }
+			 ul li:nth-of-type(1) span{animation: span1 2s linear infinite alternate;}
+			 ul li:nth-of-type(2) span{animation: span2 2s 1s linear infinite alternate;}
+			 ul li:nth-of-type(3) span{animation: span3 2s 1.5s linear infinite alternate;}
+			 ul li:nth-of-type(4) span{animation: span4 2s 2s linear infinite alternate;}
+			 @keyframes span1{from{bottom: 0px;color: #00f;}to{bottom: 50px;color: #f00;}}
+			 @keyframes span2{from{bottom: 0px;color: #f00;}to{bottom: 50px;color: #00f;}}
+			 @keyframes span3{from{bottom: 0px;color: #00f;}to{bottom: 50px;color: #f00;}}
+			 @keyframes span4{from{bottom: 0px;color: #f00;}to{bottom: 50px;color: #00f;}}
+			 button{
+			 	width: 150px;height: 50px;
+			 	display: block;margin: 0 auto;margin-top: 90px;
+			 	background-image: linear-gradient(45deg,#f0f,#0ff);
+			 	color: #fff;outline: none;
+			 	}
+			 button:nth-of-type(4){
+			 	color: #000;
+			 	animation: buttons 1s linear infinite alternate;
+			 	background-image: linear-gradient(45deg,#f0f,#ff0,#0ff);
+			 }
+			 .subject{
+			 	width: 80px;
+			 	height: 50px;
+			 	background:url("../img/55.png") no-repeat;
+			 	background-size: contain;
+			 	position: absolute;
+			 	top: 50px;
+			 	left: 0;
+			 }
+			 .bui{
+			 	width: 6px;
+			 	height: 22px;
+			 	background: url("../img/diu.png") no-repeat;
+			 	position: absolute;
+			 	top:0px;
+			 	left: 71px;
+			 }
+			 .enemy{
+			 	width: 23px;
+			 	height: 30px;
+			 	background: url("../img/enemy.png") no-repeat;
+			 	background-size: cover;
+			 	position: absolute;
+			 	top: -30px;
+			 	left:0;
+			 }
+			 .xiao{
+			 	width: 32px;
+			 	height: 48px;
+			 	position: absolute;
+			 	bottom:0px;
+			 	left: 0px;
+			 	background: url("../img/2.png") no-repeat -0px -96px;
+			 }
+			 
+			 
+			 
+			 .box2{
+			 		width: 400px;
+			 		height: 500px;
+			 		background-image: linear-gradient(45deg,#f0f,#0ff);
+			 		position: absolute;
+			 		top: 20px;
+			 		left: 20px;
+			 		border-radius:20px;
+			 		padding-right: 20px;
+			 		box-sizing: border-box;
+			 		display: none;
+			 	}
+			 	 .headline{
+			 		width: 400px;
+			 		height: 50px;
+			 		background-color:rgba(255,255,255,.3);
+			 		border-radius:20px 20px 0 0;
+			 		padding-left: 20px;
+			 		box-sizing: border-box;
+			 		margin-bottom: 30px;
+			 	}
+			 	.headline p:nth-child(1){
+			 		font: 30px/50px "微软雅黑";
+			 		height: 100%;
+			 		float: left;
+			 	}
+			 	 .headline p:nth-child(2){
+			 		width: 30px;
+			 		height: 30px;
+			 		float: right;
+			 		font-size: 30px;
+			 		line-height: 25px;
+			 		border: 1px solid #000;
+			 		text-align: center;
+			 		margin-top: 10px;
+			 		margin-right: 20px;
+			 		border-radius: 5px;
+			 	}
+			    .box-mian span:nth-of-type(1){
+			     	margin-left: 20px;
+			     	font-size: 20px;
+			     }
+			    .box-mian span.span1{
+			     	font-size: 25px;
+			     }
+			     .box-mian span:nth-of-type(3){
+			     	font-size: 20px;
+			     }
+			      .box-mian p{
+			      	margin-top: 20px;
+			      	margin-left: 20px;
+			      	text-indent: 2em;
+			      }
+			      .box3{
+				      	width: 400px;
+				 		height: 500px;
+				 		background-image: linear-gradient(45deg,#f0f,#0ff);
+				 		position: absolute;
+				 		top: 20px;
+				 		right: 20px;
+			      	    border-radius:20px;
+			 		padding-right: 20px;
+			 		box-sizing: border-box;
+			 		display: none;
+			      }
+			 
+			.mountain{
+				width: 60px;
+				height: 100px;
+				position: absolute;
+				left: 0px;
+				bottom: 0px;
+			}
+			
+			.platform{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				left: 200px;
+				bottom: 0px;
+				background-color: #f00;
+			}
+			
+			.figure{
+				width: 50px;
+				height: 50px;
+				background: url("imges/1.png") no-repeat;
+				background-size: contain;
+				position: absolute;
+				left: 0px;
+				bottom: 110px;
+			}
+			
+			.stick{
+				width: 0px;
+				height: 10px;
+				background-color: #0f0;
+				position: absolute;
+				left: 45px;
+				bottom: 100px;
+				transform-origin: left;
+				transform: rotateZ(-90deg);
+			}
+			
+			.s{
+				width: 45px;
+				height: 10px;
+				background-color: #0082c8;
+				position: absolute;
+				bottom: -10px;
+				left: 0;
+				z-index: 1;
+			}
+			
+			.p1{
+				width: 45px;
+				height: 10px;
+				background-color: #0082c8;
+				position: absolute;
+				bottom: 100px;
+				left: 0px;
+				z-index: 1;
+			}
